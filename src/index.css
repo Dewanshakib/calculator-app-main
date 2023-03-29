@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply  p-2 text-xl duration-200 rounded-lg hover:scale-95 hover:bg-Theme-One-Light-key-Hover;
+  }
+  .btn-2 {
+    @apply  p-2 text-xl duration-200 rounded-lg hover:scale-95 text-Theme-One-White-Text hover:bg-Theme-One-Dark-key-Hover;
+  }
+  .btn-3 {
+    @apply  p-2 text-xl duration-200 rounded-lg hover:scale-95 text-Theme-One-White-Text hover:bg-Theme-One-Red-key-Hover;
+  }
+  .input{
+    @apply w-full text-Theme-One-White-Text text-3xl py-5 rounded-xl text-right pr-4 tracking-wide outline-none border-none
+  }
+  .main{
+    @apply w-full h-screen  grid place-items-center duration-300
+  }
+  .blue-1{
+    @apply bg-Theme-One-Light-key shadow shadow-Theme-One-Light-key-Shadow  text-Theme-One-Dark-Text
+  }
+  .blue-2 {
+    @apply bg-Theme-One-Dark-key shadow shadow-Theme-One-Dark-key-Shadow text-Theme-One-White-Text
+  }
+  .blue-3 {
+    @apply bg-Theme-One-Red-key shadow shadow-Theme-One-Red-key-Shadow text-Theme-One-White-Text
+  }
+  .light-1{
+    @apply bg-Theme-Two-Light-Key shadow shadow-Theme-Two-Light-Key-Shadow text-Theme-Two-Dark-Text
+  }
+  .light-2{
+    @apply bg-Theme-Two-Dark-key shadow shadow-Theme-Two-Dark-key-Shadow text-Theme-One-White-Text
+  }
+  .light-3{
+    @apply bg-Theme-Two-Orange-key shadow shadow-Theme-Two-Orange-key-Shadow text-Theme-One-White-Text
+  }
+  .purple-1{
+    @apply bg-Theme-Three-Dark-key-2 shadow shadow-Theme-Three-Dark-key-Shadow-2 text-Theme-Three-Light-Yellow-Text hover:bg-Theme-Three-Dark-key-Shadow-2 
+  }
+  .purple-2{
+    @apply bg-Theme-Three-Dark-key shadow shadow-Theme-Three-Dark-key-Shadow  text-Theme-One-White-Text hover:bg-Theme-Three-Dark-key-Shadow
+  }
+  .purple-3{
+    @apply bg-Theme-Three-Cyan-key shadow shadow-Theme-Three-Cyan-key-Shadow text-Theme-Three-Dark-Text hover:bg-Theme-Three-Cyan-key-Shadow
+  }
+}
